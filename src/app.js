@@ -58,7 +58,21 @@ app.get('/weather', (req, res)=>{
         })
     })
 
+    app.get('/help/*', (req, res)=>{
+        res.render('404', {
+            title: '404',
+            name: 'Scott Strool',
+            message:    'Help Article not found'
+        })
+    })
 
+    app.get('*', (req, res)=>{
+        res.render('404', {
+            title: '404',
+            name: 'Scott Strool',
+            message: 'Error, Page Not Found'
+        } )
+    })
 
 //Start the Server
 app.listen(3000,()=>{
