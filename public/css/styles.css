@@ -56,3 +56,8 @@ button {
     color: white;
     padding: 8px;
 }
+
+.about-content {
+    font-size: 16px;
+    color: bisque;
+}
