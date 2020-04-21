@@ -28,6 +28,7 @@ header {
 h1 {
     font-size: 48px;
     margin-bottom: 16px;
+    background-color: lightblue;
 }
 
 header a {
@@ -61,3 +62,8 @@ button {
     font-size: 16px;
     color: bisque;
 }
+
+#message-1, #message-2 {
+    background-color: #ac8c8c;
+}
+
